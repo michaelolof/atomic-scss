@@ -51,6 +51,14 @@
     &--flex {
         display: flex;
     }
+
+    &--table {
+        display: table;
+    }
+
+    &--table-cell {
+        display: table-cell;
+    }
 }
 
 %flex {
