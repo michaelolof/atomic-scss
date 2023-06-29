@@ -40,25 +40,51 @@
 }
 
 %display {
-    &--inline-block {
-        display: inline-block;
+    &--none {
+        display: none;
     }
 
     &--block {
         display: block;
     }
 
+    &--inline-block {
+        display: inline-block;
+    }
+
+    &--inline {
+        display: inline
+    }
+
     &--flex {
         display: flex;
+    }
+
+    &--inline-flex {
+        display: inline-flex;
     }
 
     &--table {
         display: table;
     }
 
+    &--inline-table {
+        display: inline-table;
+    }
+
     &--table-cell {
         display: table-cell;
     }
+
+    &--grid {
+        display: grid;
+    }
+
+    &--contents {
+        display: contents;
+    }
+
+
 }
 
 %flex {
