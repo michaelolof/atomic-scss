@@ -1,0 +1,181 @@
+
+%align {
+    &-items {
+        &--self-end {
+            align-items: self-end;
+        }
+
+        &--center {
+            align-items: center;
+        }
+
+        &--flex-start {
+            align-items: flex-start;
+        }    
+    
+        &--flex-end {
+            align-items: flex-end;
+        }
+    }
+}
+
+%bottom {
+    &--0 {
+        bottom: 0;
+    }
+
+    &--100percent {
+        bottom: 100%;
+    }
+}
+
+%box-sizing {
+    &--border-box {
+        box-sizing: border-box;
+    }
+
+    &--content-box {
+        box-sizing: content-box;
+    }
+}
+
+%display {
+    &--inline-block {
+        display: inline-block;
+    }
+
+    &--block {
+        display: block;
+    }
+
+    &--flex {
+        display: flex;
+    }
+}
+
+%flex {
+    &-grow {
+        flex-grow: 1;
+    }
+
+    &-grow--1 {
+        flex-grow: 1;
+    }
+
+    &-direction--column {
+        flex-direction: column;
+    }
+}
+
+%height {
+    &--full {
+        height: 100%;
+    }
+}
+
+%justify {
+    &-content {
+        &--space-between {
+            justify-content: space-between;
+        }
+
+        &--center {
+            justify-content: center;
+        }
+
+        &--flex-end {
+            justify-content: flex-end;
+        }
+    }
+}
+
+%left {
+    &--0 {
+        left: 0;
+    }
+
+    &--100percent {
+        left: 100%;
+    }
+}
+
+%position {
+    &--relative {
+        position: relative;
+    }
+
+    &--absolute {
+        position: absolute;
+    }
+
+    &--fixed {
+        position: fixed;
+    }
+}
+
+%overflow {
+    &-y--auto {
+        overflow-y: auto;
+    }
+
+    &--scroll {
+        overflow: scroll;
+    }
+}
+
+%overscroll-behaviour {
+    &-x--none {
+        overscroll-behavior-x: none;
+    }
+}
+
+%right {
+    &--0 {
+        right: 0;
+    }
+
+    &--100percent {
+        right: 100%;
+    }
+}
+
+%top {
+    &--0 {
+        top: 0;
+    }
+
+    &--100percent {
+        top: 100%;
+    }
+}
+
+%visibility {
+    &--visible {
+        visibility: visible;
+    }
+
+    &--hidden {
+        visibility: hidden;
+    }
+
+    &--collapse {
+        visibility: collapse;
+    }
+}
+
+%width {
+    &--app {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    &--full {
+        width: 100%;
+    }
+
+    &--fit-content {
+        width: fit-content;
+    }
+}
+

@@ -1,0 +1,36 @@
+%margin {
+    &--0 {
+        margin: 0;
+    }
+}
+
+
+%padding {
+    &--unset {
+        padding: unset;
+    }
+
+    &--x-4 {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    &--y-4 {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    &--x-8 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    &--y-8 {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    &--6 {
+        padding: 6px;
+    }
+}

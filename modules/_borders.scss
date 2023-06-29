@@ -1,0 +1,45 @@
+%rounded {
+    &--full {
+        border-radius: 50%;
+    }
+}
+
+%border {
+    &--none {
+        border: none;
+    }
+
+    &--unset {
+        border: unset;
+    }
+
+    &--color {
+        border-color: $border-color;
+    }
+
+    &--1 {
+        border: solid 1px $border-color;
+    }
+
+    &--2 {
+        border: solid 1px $border-color-2;
+    }
+
+    &--3 {
+        border: solid 1px $color;
+    }
+
+    &-top--none {
+        border-top: none;
+    }
+
+    &-top--2 {
+        border-top: solid 1px $border-color-2;
+    }
+}
+
+%outline {
+    &--none {
+        outline: none;
+    }
+}
