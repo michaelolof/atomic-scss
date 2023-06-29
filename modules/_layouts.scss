@@ -71,6 +71,26 @@
     &--full {
         height: 100%;
     }
+
+    &--full-vh {
+        height: 100vh;
+    }
+
+    &--min-content {
+        height: min-content;
+    }
+
+    &--max-content {
+        height: max-content;
+    }
+
+    &--auto {
+        height: auto;
+    }
+
+    &--fit-content {
+        height: fit-content;
+    }
 }
 
 %justify {
@@ -172,6 +192,18 @@
 
     &--full {
         width: 100%;
+    }
+
+    &--min-content {
+        width: min-content;
+    }
+
+    &--max-content {
+        width: max-content;
+    }
+
+    &--auto {
+        width: auto;
     }
 
     &--fit-content {
