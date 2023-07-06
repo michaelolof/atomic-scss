@@ -175,6 +175,14 @@
     &--scroll {
         overflow: scroll;
     }
+
+    &-wrap--break-word {
+        overflow-wrap: break-word;
+    }
+
+    &-wrap--anywhere {
+        overflow-wrap: anywhere;
+    }
 }
 
 %overscroll-behaviour {
