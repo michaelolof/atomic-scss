@@ -1,41 +1,12 @@
 
 %background-color {
-    
-    background-color: $bg-color;
-    
+        
     &--unset {
         background-color: unset;
-    }
-
-    &--2 {
-        background-color: #EAE8ED;
-    }    
-
-    &--3 {
-        background-color: $bg-color-3;
-    }    
-
-    &--4 {
-        background-color: $bg-color-4;
-    }    
-
-    &--brand {
-        background-color: $color-brand;
-    }
-
-    &--darken {
-        background-color: rgba(0,0,0, 0.07);
     }
 
     &--transparent {
         background-color: transparent;
     }
 
-    &--notice {
-        background-color: #FFF8EE;
-    }
-
-    &--black {
-        background-color: $color;
-    }
 }
